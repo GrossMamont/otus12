@@ -1,0 +1,13 @@
+Oct 22 08:56:53 stud NetworkManager[668]: ALERT  [1729576613.3112] device (enp0s3): Activation: starting connection 'Проводное подключение 1' (cc95b3f3-15b8-32da-babd-db85297a92c2)
+Oct 22 08:56:53 stud NetworkManager[668]: "ALERT"  [1729576613.3112] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 22 08:56:53 stud NetworkManager[668]: 'ALERT'  [1729576613.3114] manager: NetworkManager state is now CONNECTING
+Oct 22 08:56:53 stud NetworkManager[668]: <ALERT>  [1729576613.3114] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 22 08:56:53 stud NetworkManager[668]: ALERT  [1729576613.3121] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 22 08:56:53 stud NetworkManager[668]: ALERT  [1729576613.3131] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Oct 22 08:56:53 stud avahi-daemon[664]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::f1e2:510:9368:ca9c.
+Oct 22 08:56:53 stud avahi-daemon[664]: New relevant interface enp0s3.IPv6 for mDNS.
+Oct 22 08:56:53 stud avahi-daemon[664]: Registering new address record for fe80::f1e2:510:9368:ca9c on enp0s3.*.
+Oct 22 08:56:53 stud ModemManager[807]: ALERT  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Oct 22 08:56:54 stud NetworkManager[668]: ALERT  [1729576614.0264] dhcp4 (enp0s3): state changed new lease, address=192.168.1.100
+Oct 22 08:56:54 stud avahi-daemon[664]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.1.100.
+Oct 22 08:56:54 stud avahi-daemon[664]: New relevant interface enp0s3.IPv4 for mDNS.
